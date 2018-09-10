@@ -1,0 +1,51 @@
+body {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #numbers {
+    text-align: center;
+  }
+  
+  #letters {
+    text-align: center;
+  }
+  
+  .container {
+      display: block;
+      cursor: pointer;
+  }
+  
+  .bar {
+      width: 35px;
+      height: 5px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 0.4s;
+  }
+
+  .dropDown {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    border: .5px solid gray;
+    padding: 20px;
+  }
+  
+  .content {
+    padding-top: 50px;
+    width: 180px;
+    margin: auto;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: gray;
+  }
+  
+  #numbers {
+    display: none;
+  }
